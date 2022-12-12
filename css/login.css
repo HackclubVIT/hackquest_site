@@ -1,0 +1,21 @@
+body,
+html {
+  margin: 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  width: 25%;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+}
