@@ -1,0 +1,17 @@
+*{
+    margin: 0px; 
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 5px;
+}
+.nav-content{
+    display: flex; 
+    justify-content: center; 
+}
+.nav-tags{
+    list-style: none;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
