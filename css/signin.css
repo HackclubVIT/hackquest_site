@@ -11,6 +11,19 @@ html {
   width: 25%;
 }
 
+.textbox {
+  height: 1.5rem;
+}
+
+.btn {
+  margin: 8px 0px;
+  height: 2rem;
+}
+
+.center {
+  margin: auto;
+}
+
 .maincontainer {
   display: flex;
   flex-direction: column;
