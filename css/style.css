@@ -1,4 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../assets/fonts/Montserrat-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
 
 * {
   margin: 0;
@@ -37,6 +48,31 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: black;
+}
+
+/*Button and text box classes*/
+.btn {
+  margin: 8px auto;
+  height: 3rem;
+  border: 0px;
+  font-size: larger;
+  border-radius: 100px;
+  background: linear-gradient(90deg, rgba(243, 115, 49, 1) 0%, rgba(236, 54, 77, 1) 100%);
+  font-family: "Montserrat";
+  font-weight: bold;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 300ms;
+}
+
+.btn:hover {
+  scale: 1.05;
+  box-shadow: 1px 1px 5px 1px rgba(243, 115, 49, 0.3);
+}
+
+.textbox {
+  height: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0px;
+  border-radius: 2px;
 }
 
 @media (max-width: 768px) {
