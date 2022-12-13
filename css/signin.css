@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 body,
 html {
   margin: 0px;
+  background-color: #252422;
+  font-family: "Montserrat";
+  color: #ffffff;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .form {
@@ -12,12 +21,24 @@ html {
 }
 
 .textbox {
-  height: 1.5rem;
+  height: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0px;
+  border-radius: 2px;
 }
 
 .btn {
-  margin: 8px 0px;
-  height: 2rem;
+  margin: 8px auto;
+  height: 3rem;
+  border-radius: 100px;
+  width: 30%;
+  background: linear-gradient(90deg, rgba(243, 115, 49, 1) 0%, rgba(236, 54, 77, 1) 100%);
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.link {
+  color: white;
 }
 
 .center {

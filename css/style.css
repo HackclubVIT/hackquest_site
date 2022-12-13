@@ -1,68 +1,72 @@
-*{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #252422;
+  font-family: "Montserrat";
+  color: #ffffff;
 }
-.nav-tags{
-    list-style: none;
+.nav-tags {
+  list-style: none;
 }
-.navbar{
-    min-height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
+.navbar {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
 }
-.nav-content{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
+.nav-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
 }
 
-.hamburger{
-    visibility: hidden;
-    cursor: pointer;
+.hamburger {
+  visibility: hidden;
+  cursor: pointer;
 }
-.bar{
-    display: block; 
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: black;
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
 }
 
-@media(max-width:768px){
-    .hamburger{
-        visibility: visible;
-    }
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
+@media (max-width: 768px) {
+  .hamburger {
+    visibility: visible;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 
-    .nav-content{
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        transition: 0.3s; 
-        text-align: center;
-        width: 100%;
-    }
-    .nav-tags{
-        margin: 16px 0;
-
-    }
-    .nav-content.active{
-        left: 0;
-    }
+  .nav-content {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    transition: 0.3s;
+    text-align: center;
+    width: 100%;
+  }
+  .nav-tags {
+    margin: 16px 0;
+  }
+  .nav-content.active {
+    left: 0;
+  }
 }
