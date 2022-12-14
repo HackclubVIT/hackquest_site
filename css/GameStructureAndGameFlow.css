@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+.GameStructureAndGameFlow {
+  background-color: #252525;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.gameStructureHeading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  padding-top: 55px;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+
+.gameFlowHeading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: right;
+  margin-right: 10%;
+  margin-bottom: 1%;
+}
+
+.gameStructureContent {
+  font-weight: 500;
+  font-size: 22px;
+  margin-left: 10%;
+  margin-right: 43%;
+  margin-bottom: 89px;
+  line-height: 39px;
+}
+
+.gameFlowContent {
+  font-weight: 500;
+  font-size: 22px;
+  text-align: right;
+  margin-right: 10%;
+  margin-left: 43%;
+  line-height: 39px;
+  padding-bottom: 55px;
+}
+
+.gameFlowContent, .gameStructureContent {
+  text-align: justify;
+}
+
+strong {
+  font-weight: 500;
+}
+
+@media(max-width:768px){
+  .gameStructureContent,
+  .gameFlowContent {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .gameFlowHeading,
+  .gameStructureHeading {
+    text-align: center;
+    font-size: 2px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+@media(max-width:480px){
+  .gameStructureHeading {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+  }
+  .gameFlowHeading {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+  }
+  .gameStructureContent {
+    font-size: 25px;
+  }
+  .gameFlowContent {
+    font-size: 25px;
+  }
+}

@@ -1,6 +1,26 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../assets/fonts/Montserrat-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
 body,
 html {
   margin: 0px;
+  background-color: #252422;
+  font-family: Montserrat;
+  color: #ffffff;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .form {
@@ -12,12 +32,32 @@ html {
 }
 
 .textbox {
-  height: 1.5rem;
+  height: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0px;
+  border-radius: 2px;
 }
 
 .btn {
-  margin: 8px 0px;
-  height: 2rem;
+  margin: 8px auto;
+  height: 3rem;
+  border: 0px;
+  font-size: larger;
+  border-radius: 100px;
+  width: 30%;
+  background: linear-gradient(90deg, rgba(243, 115, 49, 1) 0%, rgba(236, 54, 77, 1) 100%);
+  font-family: "Montserrat";
+  font-weight: bold;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 300ms;
+}
+
+.btn:hover {
+  scale: 1.05;
+  box-shadow: 1px 1px 5px 1px rgba(243, 115, 49, 0.3);
+}
+
+.link {
+  color: white;
 }
 
 .center {
