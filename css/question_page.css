@@ -1,0 +1,151 @@
+.nav-tags{
+    list-style: none;
+}
+body{
+  margin:0;
+  background: black;
+}
+.navbar{
+    display: flex;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#F3762F,#EC364D);
+    width: 100%;
+}
+.nav-content{
+    color:white;
+    font-size:80px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+  font-family:'Montserrat', sans-serif;
+  color:white;
+  padding-left: 20px;
+}
+
+
+
+
+.pg{
+  color:white;
+  border:1px solid white;
+  border-right: none;
+  font-family:'Montserrat', sans-serif;
+  font-size:30px;
+  border-radius:40px 0px 0px 40px;
+  text-align:center;
+  width:200px;
+}
+
+.tile{
+  background-image:url("ellipse.png");
+  background-color: rgba(255, 255, 255, 0.09);
+  backdrop-filter:blur(5px);
+  background-size:48%;
+  background-repeat: no-repeat;
+  backdrop-filter:blur(10px);
+  text-align: center;
+  width:1000px;
+  height:320px;
+  display: block;
+  color:white;
+  align-items:center;
+  justify-content: center;S
+  font-family:'Montserrat', sans-serif;
+  font-size: 80px;
+  border-radius: 25px;
+}
+
+.answer{
+  font-size: 70px;
+  text-align: center;
+}
+
+input{
+  text-align: center;
+  height:80px;
+  width: 50%;
+}
+
+input::placeholder {
+    font: 50px/3 'Montserrat';
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background: red; */
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+@media (max-width: 920px) {
+  .nav-content {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .label{
+    padding-left: 10px;
+  }
+
+  .pg{
+    border:0;
+    font-size:15px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size:10px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .tile {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+  }
+
+  input::placeholder {
+    font-size: 10px;
+  }
+
+  .answer {
+    width: 100%;
+    text-align: center;
+  }
+}
