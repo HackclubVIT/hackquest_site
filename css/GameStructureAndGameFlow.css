@@ -44,6 +44,10 @@
   padding-bottom: 55px;
 }
 
+.gameFlowContent, .gameStructureContent {
+  text-align: justify;
+}
+
 strong {
   font-weight: 500;
 }
