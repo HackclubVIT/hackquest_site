@@ -12,7 +12,7 @@
   font-weight: 400;
 }
 
- body{
+body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,15 +20,26 @@
   font-family: "Montserrat";
   color: #ffffff;
 }
+.logo-img{
+  width: 50px; 
+  height: 50px;
+}
 .nav-tags {
   list-style: none;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
 }
 .navbar {
-  min-height: 100px;
+  min-height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 3px;
+  background: linear-gradient(90.05deg, #F3762F 0%, #EC364D 72.24%);
+  height: 75px;
 }
 .nav-content {
   display: flex;
@@ -49,6 +60,67 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: black;
+}
+.land-page{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  line-height: 1.5;
+}
+.left-side{
+  display: grid;
+  color: white;
+  font-family: 'Montserrat';
+  margin-left: 180px;
+  margin-right: 40%;
+  font-weight: 500;
+}
+.right-side{
+  margin-top: 0px;
+  margin-right: 100px;
+}
+.eclipse{
+  width: 100px;
+  height: 300px;
+  background: #e85906;
+  filter: blur(10px);
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  right: 290px;
+  top: -50px;
+  border-radius: 0rem 0rem 10rem 10rem;
+  z-index: -1;
+
+}
+.blur-design{
+  width: 350px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(23.5px);
+  border-radius: 24px;
+  position: absolute;
+  top: 100px;
+  right: 180px;
+  outline: 26px solid #252422;
+}
+.play{
+  margin-top: 100px;
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  border-radius: 50px;
+}
+.hackclub-flag{
+  display: flex;
+  height: 200px;
+  gap: 0px;
+  margin-left: 0px;
+}
+.hc-img{
+  margin: -34px;
 }
 
 /*Button and text box classes*/
@@ -76,7 +148,7 @@
   border-radius: 2px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1126px) {
   .hamburger {
     visibility: visible;
   }
@@ -89,21 +161,37 @@
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
+  .navbar{
+    justify-content: space-between;
+  }
   .nav-content {
     position: fixed;
-    left: -100%;
-    top: 70px;
+    left: -200%;
+    top: 53px;
     gap: 0;
     flex-direction: column;
     transition: 0.3s;
     text-align: center;
     width: 100%;
+    background: linear-gradient(90.05deg, #F3762F 0%, #EC364D 72.24%);
   }
   .nav-tags {
-    margin: 16px 0;
+    margin-left: -70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white; 
+    cursor: pointer;
   }
   .nav-content.active {
     left: 0;
+  }
+  .right-side{
+    display: none;
+  }
+  .left-side{
+      margin: auto;
+  }
+  .play{
+      justify-content: center;
   }
 }
