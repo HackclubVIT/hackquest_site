@@ -1,78 +1,108 @@
-.nav-tags{
-    list-style: none;
+.nav-tags {
+  list-style: none;
+  font-size: 60px;
+  font-weight: 900;
 }
-body{
-  margin:0;
+
+body {
+  margin: 0;
   background: black;
-}
-.navbar{
-    display: flex;
-    margin:0;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(45deg,#F3762F,#EC364D);
-    width: 100%;
-}
-.nav-content{
-    color:white;
-    font-size:80px;
-    font-family: 'Montserrat', sans-serif;
-    justify-content: center;
-    align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.label{
-  font-family:'Montserrat', sans-serif;
-  color:white;
-  padding-left: 20px;
+.hackquest-title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
 }
 
-
-
-
-.pg{
-  color:white;
-  border:1px solid white;
-  border-right: none;
-  font-family:'Montserrat', sans-serif;
-  font-size:30px;
-  border-radius:40px 0px 0px 40px;
-  text-align:center;
-  width:200px;
+.logo {
+  position: absolute;
+  top: 2.2%;
+  left: 10%;
 }
 
-.tile{
-  background-image:url("/assets/image/ellipse.png");
-  background-color: rgba(255, 255, 255, 0.09);
-  backdrop-filter:blur(5px);
-  background-size:48%;
-  background-repeat: no-repeat;
-  backdrop-filter:blur(10px);
-  text-align: center;
-  width:1000px;
-  height:320px;
-  display: block;
-  color:white;
-  align-items:center;
-  justify-content: center;S
-  font-family:'Montserrat', sans-serif;
+.navbar {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(42deg, #F3762F, #EC364D);
+  width: 100%;
+  height: 100px;
+}
+
+.nav-content {
+  color: white;
   font-size: 80px;
-  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  align-items: center;
 }
 
-.answer{
+.label {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 80px;
+  padding-top: 30px;
+  font-size: 20px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.pg {
+  color: white;
+  border: 1px solid white;
+  border-right: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  border-radius: 50px 0px 0px 50px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  width: 200px;
+}
+
+.tile {
+  background-image: url("assets/image/ellipse.png");
+  background-color: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(6px);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  width: 1200px;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-top: 40px;
+}
+
+.answer {
+  margin-bottom: 20px;
   font-size: 70px;
   text-align: center;
 }
 
-input{
+input {
   text-align: center;
-  height:80px;
+  height: 80px;
   width: 50%;
 }
 
 input::placeholder {
-    font: 50px/3 'Montserrat';
+  font: 50px/3 'Montserrat';
+  font-weight: 700;
 }
 
 .container {
@@ -80,7 +110,7 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* background: red; */
+
 }
 
 .wrapper {
@@ -88,6 +118,7 @@ input::placeholder {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  /* background: red; */
 }
 
 
@@ -97,13 +128,15 @@ input::placeholder {
     font-size: 30px;
   }
 
-  .label{
+  .label {
     padding-left: 10px;
+    padding-top: 0;
+    font-size: 10px;
   }
 
-  .pg{
-    border:0;
-    font-size:15px;
+  .pg {
+    border: 0;
+    font-size: 15px;
   }
 
   .container {
@@ -119,7 +152,7 @@ input::placeholder {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    font-size:10px;
+    font-size: 10px;
   }
 
   .container {
