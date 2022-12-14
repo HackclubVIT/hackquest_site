@@ -10,7 +10,7 @@
 .gameStructureHeading {
   font-style: normal;
   font-weight: 900;
-  font-size: 80px;
+  font-size: 50px;
   padding-top: 55px;
   margin-left: 10%;
   margin-bottom: 1%;
@@ -19,7 +19,7 @@
 .gameFlowHeading {
   font-style: normal;
   font-weight: 900;
-  font-size: 80px;
+  font-size: 50px;
   text-align: right;
   margin-right: 10%;
   margin-bottom: 1%;
@@ -27,7 +27,7 @@
 
 .gameStructureContent {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 22px;
   margin-left: 10%;
   margin-right: 43%;
   margin-bottom: 89px;
@@ -36,7 +36,7 @@
 
 .gameFlowContent {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 22px;
   text-align: right;
   margin-right: 10%;
   margin-left: 43%;
@@ -48,22 +48,17 @@ strong {
   font-weight: 500;
 }
 
-@media(min-width:768px){
-  .gameStructureContent,
-  .gameFlowContent {
-    text-align: justify;
-  }
-}
-
 @media(max-width:768px){
   .gameStructureContent,
   .gameFlowContent {
+    text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
   }
   .gameFlowHeading,
   .gameStructureHeading {
     text-align: center;
+    font-size: 2px;
     margin-right: 10%;
     margin-left: 10%;
   }
@@ -73,17 +68,17 @@ strong {
   .gameStructureHeading {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 50px;
+    font-size: 40px;
   }
   .gameFlowHeading {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 50px;
+    font-size: 40px;
   }
   .gameStructureContent {
-    font-size: 30px;
+    font-size: 25px;
   }
   .gameFlowContent {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
