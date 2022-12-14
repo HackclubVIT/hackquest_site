@@ -62,7 +62,8 @@ img.pink_yellow{
 .footer {
     /* display: flex;
     flex-direction: column; */
-    background: var(--dark) !important;
+    /* background: var(--yellow) !important; */
+    background-color: palevioletred !important;
 }
 .socials ul{
     list-style: none;
@@ -108,7 +109,7 @@ footer {
     width: 100% !important;
     height: auto;
     left: 0px;
-    background-color: #272121;
+    background-color: pink;
 }
 
 .container li {
