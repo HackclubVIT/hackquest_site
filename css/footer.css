@@ -1,6 +1,6 @@
 
 footer {
-
+    margin-top: 200px;
     background-color: #272121;
 }
 
@@ -8,7 +8,7 @@ footer li {
     list-style-type: none;
 }
 
-footer ul.container {
+footer ul.footer-container {
     padding: 0;
     margin: 0;
     display: flex;
