@@ -34,7 +34,7 @@ body {
 }
 
 .basics-event-date {
-  background-image: url("/assets/image/ellipse-top.png");
+  background-image: url("/assets/image/ellipse-top.webp");
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: top left;
@@ -51,7 +51,7 @@ body {
   color: white;
 }
 .basics-team-size {
-  background-image: url("/assets/image/ellipse-right.png");
+  background-image: url("/assets/image/ellipse-right.webp");
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: top right;
@@ -68,7 +68,7 @@ body {
   color: white;
 }
 .basics-registration-fee {
-  background-image: url("/assets/image/ellipse-bottom.png");
+  background-image: url("/assets/image/ellipse-bottom.webp");
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: bottom left;
